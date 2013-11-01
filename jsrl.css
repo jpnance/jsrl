@@ -1,0 +1,40 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: 'Helvetica';
+}
+
+h1 {
+	font-size: 4em;
+	margin: 0.2em 0 0 0;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Georgia';
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: normal;
+	margin: 0 0 1em 0;
+	text-align: center;
+}
+
+div#grid {
+	height: 600px;
+	margin: 0 auto;
+	width: 900px;
+}
+
+	div#grid div.tile {
+		float: left;
+		height: 10px;
+		width: 10px;
+	}
+
+	div#grid div.tile.land {
+		background-color: rgb(0, 0, 50);
+	}
+
+	div#grid div.tile.hero {
+		background-color: rgb(255, 255, 255);
+	}
